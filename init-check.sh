@@ -10,6 +10,9 @@ MY_COMMAND=
 MY_COMMAND_2=
 # init terminator
 terminator
+# init docker
+xdotool sleep 0.5 type "docker start db cnk"
+xdotool sleep 0.5 key KP_Enter;
 # init PROJECT service
 xdotool sleep 0.5 type "cd /home/$MY_USER/$MY_FOLDER/$MY_FOLDER_PROJECT_1"
 xdotool sleep 0.5 key KP_Enter;
